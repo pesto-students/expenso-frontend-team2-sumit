@@ -1,4 +1,8 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .App {
   font-family: sans-serif;
   text-align: center;
 }
@@ -6,4 +10,17 @@
 nav {
   display: flex;
   justify-content: space-around;
+} */
+
+#root {
+  min-height: 100%;
+}
+
+img {
+  /* height: auto; */
+  object-fit: scale-down;
+}
+
+.hover:hover {
+  cursor: pointer;
 }
